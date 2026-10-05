@@ -21,3 +21,22 @@ sudo systemctl daemon-reload
 service jenkins start
 cat /var/lib/jenkins/secrets/initialAdminPassword
 sudo su -
+mvn archetype : generate -DarchetypeGroupId=org.apache.maven.archrtypes ⁠-DarchetypeArtifactId=maven-archetype-webapp DarchetypeVersion=1.5 ⁠-DgroupId=com.job1 -DartifactId=job1 -DinteractiveMode=false -U
+mvn archetype : generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-webapp -DarchetypeVersion=1.5 -DgroupId=com.job1 
+ mvn archetype : generate -DarchetypeArtifactId=maven-archetype-webapp \
+mvn archetype : generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-webapp -DarchetypeVersion=1.5 -DgroupId=com.job1 
+ mvn archetype : generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-webapp  -DarchetypeVersion=1.5 -DgroupId=com.job1  -DartifactId=job1 -DinteractiveMode=false  -U
+mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-webapp -DarchetypeVersion=1.5 -DgroupId=com.job1 -DartifactId=job1 -DinteractiveMode=false -U
+java --version
+dnf install maven -y
+mvn --version
+mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-webapp -DarchetypeVersion=1.5 -DgroupId=com.job1 -DartifactId=job1 -DinteractiveMode=false -U
+sudo dnf install git -y
+git init
+git add .
+git commit -m "commit1"
+git remote add origin https://github.com/venkateswarlu868828-ctrl/project1_jenkins.git
+git remote -v
+git branch -M
+git branch -M main
+git push -u origin main
